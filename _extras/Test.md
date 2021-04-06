@@ -15,7 +15,7 @@ preamble
 preamble   
 preamble   
 
-### <a name="Item1"></a>A Heading in this SO entry!
+### <a name="Item1"></a>Article 1!
 text about item 1.   
 text about item 1.   
 text about item 1.   
@@ -43,7 +43,7 @@ text about item 1.
 text about item 1.   
 text about item 1.   
    
-### <a name="Item2"></a>A Heading in this SO entry!
+### <a name="Item2"></a>Article 2!
 text about item 2.  
 text about item 2.  
 text about item 2.  
@@ -75,7 +75,7 @@ text about item 2.
 text about item 2.  
 text about item 2.  
 
-### <a name="Item3"></a>A Heading in this SO entry!
+### <a name="Item3"></a>Article 3!
 text about item 3.  
 text about item 3.  
 text about item 3.  
