@@ -1,9 +1,12 @@
 ---
 layout: page
-title: File manipulation
+title: Bonus materials
 ---
 
-## File manipulation and more practice with pipes
+[1.0 File manipulation and pipes](#File_man)    
+[next_item_here](#name)    
+
+##  <a name="File_man"></a> File manipulation and more practice with pipes
 
 Let's use the tools we've added to our tool kit so far, along with a few new ones, to example our SRA metadata file. First, let's navigate to the correct directory.
 
