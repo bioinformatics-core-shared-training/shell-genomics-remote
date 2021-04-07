@@ -461,7 +461,7 @@ efficiently.
 
 > # File manipulation and more practices with pipes
 > 
-> To practice a bit more with the tools we’ve added to our tool kit so far and learn a few extra ones you can follow [this extra lesson](https://datacarpentry.org/shell-genomics/Extra_lesson/index.html) which uses the SRA metadata file. 
+> To practice a bit more with the tools we’ve added to our tool kit so far and learn a few extra ones you can follow [this extra lesson](https://bioinformatics-core-shared-training.github.io/shell-genomics-remote/Extra_lesson/index.html#File_man) which uses the SRA metadata file. 
 > 
 {: .callout}
 
