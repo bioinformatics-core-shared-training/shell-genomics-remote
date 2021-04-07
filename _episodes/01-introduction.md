@@ -54,19 +54,10 @@ On a Mac or Linux machine, you can access a shell through a program called Termi
 on your computer. If you're using Windows, you'll need to download a separate program to access the shell.
 
 We will spend most of our time learning about the basics of the shell
-by manipulating some experimental data. Some of the data we're going to be working with is quite large, and
-we're also going to be using several bioinformatic packages in later
-lessons to work with this data. To avoid having to spend time 
-downloading the data and downloading and installing all of the software,
-we're going to be working with data on a remote server. 
-
-You can log-in to the remote server using the instructions 
-[here](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/#logging-onto-a-cloud-instance). 
-Your instructor will supply the `ip_address` and password that you need to login.
-
-Each of you will have a different `ip_address`. This will 
-prevent us from accidentally changing each other's files as we work through the
-exercises. The password will be the same for everyone. 
+by manipulating some experimental data. Some of the data we're going to be working with is quite large.
+To avoid having to spend time downloading the data and downloading and installing all of the software,
+we're going to be working with data on a remote server hosted by the Craik-Marshall team who will
+provide you with login credentials.     
 
 After logging in, you will see a screen showing something like this: 
 
