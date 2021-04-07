@@ -3,8 +3,18 @@ layout: page
 title: Bonus materials
 ---
 
-[1.0 File manipulation and pipes](#File_man)    
+[1.0 Using the Carpentries AWS images](#AWS_info)    
+[2.0 File manipulation and pipes](#File_man)    
 [next_item_here](#name)    
+
+## <a name="AWS_info"></a> Using the Carpentries AWS images
+You can log-in to the remote server using the instructions 
+[here](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/#logging-onto-a-cloud-instance). 
+Your instructor will supply the `ip_address` and password that you need to login.
+
+Each of you will have a different `ip_address`. This will 
+prevent us from accidentally changing each other's files as we work through the
+exercises. The password will be the same for everyone. 
 
 ##  <a name="File_man"></a> File manipulation and more practice with pipes
 
