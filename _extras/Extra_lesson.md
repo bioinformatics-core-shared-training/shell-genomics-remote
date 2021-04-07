@@ -10,9 +10,9 @@ function goBack() {
 </script>
 
 [1.0 Using the Carpentries AWS images](#AWS_info)    
-[2.0 File manipulation and pipes](#File_man) 
-[3.0 Automation using loops and basename](#Loops)
-[next_item_here](#name)    
+[2.0 File manipulation and pipes](#File_man)   
+[3.0 Automation using loops and basename](#Loops) 
+[next_item_here](#name)        
 
 ## <a name="AWS_info"></a> Using the Carpentries AWS images
 You can log-in to the remote server using the instructions 
