@@ -3,6 +3,11 @@ layout: page
 title: Bonus materials
 ---
 
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 [1.0 Using the Carpentries AWS images](#AWS_info)    
 [2.0 File manipulation and pipes](#File_man)    
 [next_item_here](#name)    
@@ -15,6 +20,8 @@ Your instructor will supply the `ip_address` and password that you need to login
 Each of you will have a different `ip_address`. This will 
 prevent us from accidentally changing each other's files as we work through the
 exercises. The password will be the same for everyone. 
+
+<button onclick="goBack()">Go Back</button>
 
 ##  <a name="File_man"></a> File manipulation and more practice with pipes
 
@@ -343,3 +350,5 @@ NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
 NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
 ~~~
 {: .output}
+
+<button onclick="goBack()">Go Back</button>
