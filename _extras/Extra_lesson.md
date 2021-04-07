@@ -199,6 +199,7 @@ $ for filename in *.txt
 > {: .solution}
 {: .challenge}
 
+<button onclick="goBack()">Go Back</button>
 
 ##  <a name="File_man"></a> File manipulation and more practice with pipes
 
@@ -530,4 +531,4 @@ NNNNNNNNNNNNNNNNANNNNNNNNNNNNNNNNNN
 
 <button onclick="goBack()">Go Back</button>
 
-<button onclick="goBack()">Go Back</button>
+
