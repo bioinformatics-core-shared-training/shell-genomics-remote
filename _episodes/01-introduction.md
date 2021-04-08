@@ -242,7 +242,7 @@ file using your keyboard's down arrow or use the <kbd>Space</kbd> key to go forw
 and the <kbd>b</kbd> key to go backwards one page. When you are done reading, hit <kbd>q</kbd>
 to quit.
 
-> ## Challenge
+> ## Challenge 01.01
 > Use the `-l` option for the `ls` command to display more information for each item 
 > in the directory. What is one piece of additional information this long format
 > gives you that you don't see with the bare `ls` command?
