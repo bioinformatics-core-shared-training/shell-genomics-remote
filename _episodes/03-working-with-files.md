@@ -82,7 +82,7 @@ Lists every file in `/usr/bin` that ends in the characters `.sh`.
 Note that the output displays __full__ paths to files, since
 each result starts with `/`.
 
-> ## Exercise
+> ## Exercise 03.01
 > Do each of the following tasks from your current directory using a single
 > `ls` command for each:
 > 
@@ -106,7 +106,7 @@ each result starts with `/`.
 > {: .solution}
 {: .challenge}
 
-> ## Exercise
+> ## Exercise 03.02
 > `echo` is a built-in shell command that writes its arguments, like a line of text to standard output. 
 > The `echo` command can also be used with pattern matching characters, such as wildcard characters. 
 > Here we will use the `echo` command to see how the wildcard character is interpreted by the shell.
@@ -197,7 +197,7 @@ You will be glad you learned this when you need to re-run very complicated comma
 For more information on advanced usage of `history`, read section 9.3 of
 [Bash manual](https://www.gnu.org/software/bash/manual/html_node/index.html).
 
-> ## Exercise
+> ## Exercise 03.03
 > Find the line number in your history for the command that listed all the .sh
 > files in `/usr/bin`. Rerun that command.
 >
@@ -225,7 +225,7 @@ $ cat SRR098026.fastq
 This will print out all of the contents of the `SRR098026.fastq` to the screen.
 
 
-> ## Exercise
+> ## Exercise 03.04
 > 
 > 1. Print out the contents of the `~/shell_data/untrimmed_fastq/SRR097977.fastq` file. What is the last line of the file? 
 > 2.  From your home directory, and without changing directories,
@@ -279,7 +279,7 @@ and where it is in the file. If you continue to type `/` and hit return, you wil
 forward to the next instance of this sequence motif. If you instead type `?` and hit 
 return, you will search backwards and move up the file to previous examples of this motif.
 
-> ## Exercise
+> ## Exercise 03.05
 >
 > What are the next three nucleotides (characters) after the first instance of the sequence quoted above?
 > 
@@ -591,7 +591,7 @@ $ rm -r backup
 This will delete not only the directory, but all files within the directory. If you have write-protected files in the directory, 
 you will be asked whether you want to override your permission settings. 
 
-> ## Exercise
+> ## Exercise 03.06
 >
 > Starting in the `shell_data/untrimmed_fastq/` directory, do the following:
 > 1. Make sure that you have deleted your backup directory and all files it contains.  
