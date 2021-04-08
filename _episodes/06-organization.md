@@ -72,7 +72,7 @@ You should see the output:
 > always returns you to home.  
 {: .callout}
 
-> ## Exercise  
+> ## Exercise 06.01  
 > Use the `mkdir` command to make the following directories:   
 > - `dc_workshop`
 > - `dc_workshop/docs`
@@ -169,7 +169,7 @@ $ history | tail -n 7
 ~~~
 {: .bash}
 
-> ## Exercise
+> ## Exercise 06.02
 > Using your knowledge of the shell, use the append redirect `>>` to create a file called
 > `dc_workshop_log_XXXX_XX_XX.sh` (Use the four-digit year, two-digit month, and two digit day, e.g.
 > `dc_workshop_log_2017_10_27.sh`)  
