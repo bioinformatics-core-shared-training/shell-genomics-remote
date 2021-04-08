@@ -226,5 +226,4 @@ The script should run the same way as before, but now we've created our very own
 
 You will learn more about writing scripts in [a later lesson](https://datacarpentry.org/wrangling-genomics/05-automation/index.html).
 
-
-</div>
+If you are wondering how to transfer data files between your computer and other ones (e.g. in the cloud) then work through this [extra lesson](https://bioinformatics-core-shared-training.github.io/shell-genomics-remote/Extra_lesson/index.html#Move_data)
