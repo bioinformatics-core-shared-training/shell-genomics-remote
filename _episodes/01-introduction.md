@@ -58,6 +58,7 @@ by manipulating some experimental data. Some of the data we're going to be worki
 To avoid having to spend time downloading the data and downloading and installing all of the software,
 we're going to be working with data on a remote server hosted by the Craik-Marshall team who will
 provide you with login credentials.     
+You can also use this with AWS using the[ Carpentries AMI](https://bioinformatics-core-shared-training.github.io/shell-genomics-remote/Extra_lesson/index.html#AWS_info).
 
 After logging in, you will see a screen showing something like this: 
 
