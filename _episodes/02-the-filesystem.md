@@ -93,7 +93,7 @@ $ ls ../../
 
 prints the contents of `/home`.
 
-> ## Finding hidden directories
+> ## Finding hidden directories 02.01
 >
 > First navigate to the `shell_data` directory. There is a hidden directory within this directory. Explore the options for `ls` to 
 > find out how to see hidden directories. List the contents of the directory and 
@@ -193,7 +193,7 @@ $ cd shell_data/untrimmed_fastq
 This will take you to the `untrimmed_fastq` directory without having to go through
 the intermediate directory.
 
-> ## Navigating practice
+> ## Navigating practice 02.02
 > 
 > Navigate to your home directory. From there, list the contents of the `untrimmed_fastq` 
 > directory. 
@@ -287,7 +287,7 @@ Over time, it will become easier for you to keep a mental note of the
 structure of the directories that you are using and how to quickly
 navigate amongst them.
 
-> ## Relative path resolution
+> ## Relative path resolution 02.03
 > 
 > Using the filesystem diagram below, if `pwd` displays `/Users/thing`,
 > what will `ls ../backup` display?
