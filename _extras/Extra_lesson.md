@@ -9,10 +9,10 @@ function goBack() {
 }
 </script>
 
-[1.0 Using the Carpentries AWS images](#AWS_info)    
-[2.0 Automation using loops and basename](#Loops)    
-[3.0 File manipulation and pipes](#File_man) 
-[4.0 Moving files to/from the cloud](#Move_data).    
+[1.0 Using the Carpentries AWS images - from lesson 01](#AWS_info)    
+[2.0 Automation using loops and basename- from lesson 04](#Loops)    
+[3.0 File manipulation and pipes - from lesson 04](#File_man)    
+[4.0 Moving files to/from the cloud - from lesson 05](#Move_data).    
 [next_item_here](#name)        
 
 ## <a name="AWS_info"></a> Using the Carpentries AWS images
