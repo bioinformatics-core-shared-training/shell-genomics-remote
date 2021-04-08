@@ -96,7 +96,7 @@ CNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ~~~
 {: .output}
 
-> ## Exercise
+> ## Exercise 04.01
 >
 > 1. Search for the sequence `GNATNACCACTTCC` in the `SRR098026.fastq` file.
 > Have your search return all matching lines and the name (or identifier) for each sequence
@@ -215,7 +215,7 @@ $ wc -l bad_reads.txt
 ~~~
 {: .output}
 
-> ## Exercise
+> ## Exercise 04.02
 >
 > How many sequences are there in `SRR098026.fastq`? Remember that every sequence is formed by four lines.
 >
@@ -237,7 +237,7 @@ $ wc -l bad_reads.txt
 {: .challenge}
 
 
-> ## Exercise
+> ## Exercise 04.03
 >
 > How many sequences in `SRR098026.fastq` contain at least 3 consecutive Ns?
 >
