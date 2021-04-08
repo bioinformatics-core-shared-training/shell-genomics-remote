@@ -464,5 +464,5 @@ efficiently.
 > To practice a bit more with the tools we’ve added to our tool kit so far and learn a few extra ones you can follow [this extra lesson](https://bioinformatics-core-shared-training.github.io/shell-genomics-remote/Extra_lesson/index.html#File_man) which uses the SRA metadata file. 
 > 
 {: .callout}
-
+For further automation e.g. processing multiple files, we can use for loops and the basename command - see this [Extra lesson](https://bioinformatics-core-shared-training.github.io/shell-genomics-remote/Extra_lesson/index.html#Loops)
 
