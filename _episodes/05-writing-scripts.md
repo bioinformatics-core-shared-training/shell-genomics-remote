@@ -112,7 +112,7 @@ return to the shell.
 
 Now you've written a file. You can take a look at it with `less` or `cat`, or open it up again and edit it with `nano`.
 
-> ## Exercise
+> ## Exercise 05.01
 >
 > Open `README.txt` and add the date to the top of the file and save the file. 
 >
@@ -164,7 +164,7 @@ $ bash bad-reads-script.sh
 It will look like nothing happened, but now if you look at `scripted_bad_reads.txt`, you can see that there are now reads in the file.
 
 
-> ## Exercise
+> ## Exercise 05.02
 >
 > We want the script to tell us when it's done.  
 > 1. Open `bad-reads-script.sh` and add the line `echo "Script finished!"` after the `grep` command and save the file.  
