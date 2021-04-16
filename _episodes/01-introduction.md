@@ -368,7 +368,9 @@ THe directories that we will work on in this course are arranged like this:
 
 <code>
 └── Course_materials.  
+  
     └── shell_data.  
+    
         ├── sra_metadata. 
         │    └── SraRunTable.txt.  
         └── untrimmed_fastq.  
