@@ -368,15 +368,14 @@ THe directories that we will work on in this course are arranged like this:
 
 ---     
   └── Course_materials.  
-         └── shell_data.     
-            ├── sra_metadata.  
-            │    └── SraRunTable.txt.  
-            └── untrimmed_fastq.  
-                ├── SRR097977.fastq.  
-                └── SRR098026.fastq.      
---- 
+  .       └── shell_data.     
+  -          ├── sra_metadata.  
+  .          │    └── SraRunTable.txt.  
+  .          └── untrimmed_fastq.  
+  .              ├── SRR097977.fastq.  
+  .              └── SRR098026.fastq.      
 
-<u>End of tree.-.-.*-+*</u>
+<u>End of dir tree.-.-.*-+*</u>
 
 ## Summary
 
