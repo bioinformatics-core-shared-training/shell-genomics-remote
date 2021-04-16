@@ -364,7 +364,7 @@ Displays the name of every program that starts with `pw`.
 
 ## Our training directory structure
 When you login into the training machine you are placed at /home/ubuntu/Course_materials.
-THe directories that we will work on in this course are arranged like this:     
+The directories that we will work on in this course are arranged like this:     
 
 ~~~   
  └── Course_materials.  
