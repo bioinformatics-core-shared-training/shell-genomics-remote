@@ -366,7 +366,7 @@ Displays the name of every program that starts with `pw`.
 When you login into the training machine you are placed at /home/ubuntu/Course_materials.
 THe directories that we will work on in this course are arranged like this:     
 
----     
+~~~   
 ````  └── Course_materials.  
       └── shell_data.     
   -          ├── sra_metadata.  
@@ -375,7 +375,8 @@ THe directories that we will work on in this course are arranged like this:
   .              ├── SRR097977.fastq.  
   .              └── SRR098026.fastq.      
 
-<u>End of _tree_.-.-.*-+*</u>
+~~~
+{: .output}
 
 ## Summary
 
