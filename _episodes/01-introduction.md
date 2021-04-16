@@ -370,7 +370,7 @@ THe directories that we will work on in this course are arranged like this:
   
   └── Course_materials.   
     └── shell_data.     
-      ├── sra_metadata. 
+      ├── sra_metadata.  
       │    └── SraRunTable.txt.  
       └── untrimmed_fastq.  
           ├── SRR097977.fastq.  
@@ -378,7 +378,7 @@ THe directories that we will work on in this course are arranged like this:
   
 </code>.  
 
-<i><u>End of tree.-.-.</u></i>
+<u>End of tree.-.-.</u>
 
 ## Summary
 
