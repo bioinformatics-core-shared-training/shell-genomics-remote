@@ -367,6 +367,7 @@ When you login into the training machine you are placed at /home/ubuntu/Course_m
 THe directories that we will work on in this course are arranged like this:     
 
 <code>     
+  
   └── Course_materials.   
      └── shell_data.     
          ├── sra_metadata. 
@@ -380,7 +381,7 @@ THe directories that we will work on in this course are arranged like this:
 
 </code>.  
 
-<i>End of tree.-.-.</i>
+<i><u>End of tree.-.-.</u></i>
 
 ## Summary
 
