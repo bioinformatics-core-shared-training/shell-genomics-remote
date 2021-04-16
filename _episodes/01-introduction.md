@@ -376,7 +376,7 @@ THe directories that we will work on in this course are arranged like this:
                 └── SRR098026.fastq.      
 
 ~~~
-{: .tree output}
+{: . tree_output}
 
 ## Summary
 
