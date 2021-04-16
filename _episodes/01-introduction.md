@@ -367,7 +367,7 @@ When you login into the training machine you are placed at /home/ubuntu/Course_m
 THe directories that we will work on in this course are arranged like this:     
 
 ---     
-  └── Course_materials 
+  └── Course_materials.  
     └── shell_data.     
       ├── sra_metadata.  
       │    └── SraRunTable.txt.  
@@ -376,7 +376,7 @@ THe directories that we will work on in this course are arranged like this:
           └── SRR098026.fastq.      
 --- 
 
-<u>End of tree.-.-.*.*</u>
+<u>End of tree.-.-.*-+*</u>
 
 ## Summary
 
