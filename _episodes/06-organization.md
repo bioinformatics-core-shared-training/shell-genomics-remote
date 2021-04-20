@@ -55,7 +55,7 @@ In this exercise we will setup a file system for the project we will be working 
 We will start by creating a directory that we can use for the rest of the workshop. First navigate to your home directory. Then confirm that you are in the correct directory using the `pwd` command.
 
 ~~~
-$ cd
+$ cd ~
 $ pwd
 ~~~
 {: .bash}
@@ -63,12 +63,12 @@ $ pwd
 You should see the output: 
 
 ~~~
-/home/dcuser  
+/home/ubuntu/Course_Materials  
 ~~~
 {: .output}
 
 > ## Tip  
-> If you aren't in your home directory, the easiest way to get there is to enter the command `cd`, which
+> If you aren't in your home directory, the easiest way to get there is to enter the command `cd ~`, which
 > always returns you to home.  
 {: .callout}
 
@@ -162,7 +162,7 @@ $ history
 The history likely contains many more commands than you have used for the current project. Let's view the last
 several commands that focus on just what we need for this project.   
 
-View the last n lines of your history (where n = approximately the last few lines you think relevant). For our example, we will use the last 7:
+View the last n lines of your history (where n = approximately the last few lines you think relevant). For our example, we will use the last 5:
 
 ~~~   
 $ history | tail -n 7
@@ -172,70 +172,18 @@ $ history | tail -n 7
 > ## Exercise 06.02
 > Using your knowledge of the shell, use the append redirect `>>` to create a file called
 > `dc_workshop_log_XXXX_XX_XX.sh` (Use the four-digit year, two-digit month, and two digit day, e.g.
-> `dc_workshop_log_2017_10_27.sh`)  
+> `dc_workshop_log_2021_04_26.sh`)  
 > > 
 > > ## Solution
 > > ~~~
-> > $ history | tail -n 8 >> dc_workshop_log_2017_10_27.sh
+> > $ history | tail -n 5 >> dc_workshop_log_2021_04_26.sh
 > > ~~~
 > > {: .bash}
-> > Note we used the last 7 lines as an example, the number of lines may vary.
+> > Note we used the last 5 lines as an example, the number of lines may vary.
 > {: .solution}
 {: .challenge}
 
-You may have noticed that your history contains the `history` command itself. To remove this redundancy
-from our log, let's use the `nano` text editor to fix the file:  
-
-~~~
-$ nano dc_workshop_log_2017_10_27.sh
-~~~
-{: .bash}
-
-(Remember to replace the `2017_10_27` with your workshop date.)
-
-From the `nano` screen, you can use your cursor to navigate, type, and delete any redundant lines.   
-
-> ## Navigating in Nano
-> 
-> Although `nano` is useful, it can be frustrating to edit documents, as you 
-> can't use your mouse to navigate to the part of the document you would like to edit.
-> Here are some useful keyboard shortcuts for moving around within a text document in 
-> `nano`. You can find more information by typing <kbd>Ctrl</kbd>-<kbd>G</kbd> within `nano`.
-> 
-> | key     | action |
-> | ------- | ---------- |
-> | <kbd>Ctrl</kbd>-<kbd>Space</kbd> OR <kbd>Ctrl</kbd>-<kbd>→</kbd> | to move forward one word |
-> | <kbd>Alt</kbd>-<kbd>Space</kbd> OR <kbd>Esc</kbd>-<kbd>Space</kbd> OR <kbd>Ctrl</kbd>-<kbd>←</kbd> | to move back one word |
-> | <kbd>Ctrl</kbd>-<kbd>A</kbd> | to move to the beginning of the current line |
-> | <kbd>Ctrl</kbd>-<kbd>E</kbd> | to move to the end of the current line |
-> | <kbd>Ctrl</kbd>-<kbd>W</kbd> | to search |
-> 
-{: .callout}
-
-Add a date line and comment to the line where you have created the directory. Recall that any
-text on a line after a `#` is ignored by bash when evaluating the text as code. For example:   
-
-~~~
-# 2017_10_27   
-# Created sample directories for the Data Carpentry workshop  
-~~~
-{: .bash}
-
-Next, remove any lines of the history that are not relevant by navigating to those lines and using your 
-delete key. Save your file and close `nano`.
-
-Your file should look something like this: 
-
-~~~
-# 2017_10_27
-# Created sample directories for the Data Carpentry workshop
-
-mkdir dc_workshop
-mkdir dc_workshop/docs
-mkdir dc_workshop/data
-mkdir dc_workshop/results
-~~~
-{: .output}
+You may have noticed that your history contains the `history` command itself. 
 
 If you keep this file up to date, you can use it to re-do your work on your project if something happens to your results files. To demonstrate how this works, first delete
 your `dc_workshop` directory and all of its subdirectories. Look at your directory 
@@ -248,7 +196,7 @@ $ ls
 {: .bash}
 
 ~~~
-shell_data	dc_workshop_log_2017_10_27.sh
+shell_data	dc_workshop_log_2021_04_26.sh
 ~~~
 {: .output}
 
@@ -256,13 +204,13 @@ Then run your workshop log file as a bash script. You should see the `dc_worksho
 directory and all of its subdirectories reappear. 
 
 ~~~
-$ bash dc_workshop_log_2017_10_27.sh
+$ bash dc_workshop_log_2021_04_26.sh
 $ ls
 ~~~
 {: .bash}
 
 ~~~
-shell_data	dc_workshop dc_workshop_log_2017_10_27.sh
+shell_data	dc_workshop dc_workshop_log_2021_04_26.sh
 ~~~
 {: .output}
 

@@ -28,8 +28,10 @@ Use the commands we've learned so far to navigate to the `shell_data/untrimmed_f
 you're not already there. 
 
 ~~~
-$ cd
+$ pwd
+$ ls
 $ cd shell_data
+$ ls
 $ cd untrimmed_fastq
 ~~~
 {: .bash}
@@ -51,6 +53,10 @@ Your computer looked for a directory or file called `shell_data` within the
 directory you were already in. It didn't know you wanted to look at a directory level
 above the one you were located in. 
 
+~~~
+$ ls
+~~~
+
 We have a special command to tell the computer to move us back or up one directory level. 
 
 ~~~
@@ -68,7 +74,7 @@ $ pwd
 {: .bash}
 
 ~~~
-/home/dcuser/shell_data
+/home/ubuntu/Course_Materials/shell_data
 ~~~
 {: .output}
 
@@ -87,7 +93,7 @@ From this output, we can see that `..` did indeed take us back one level in our 
 You can chain these together like so:
 
 ~~~
-$ ls ../../
+$ ls ../../../
 ~~~
 {: .bash}
 
@@ -158,10 +164,10 @@ By default, the `ls` commands lists the contents of the working
 directory (i.e. the directory you are in). You can always find the
 directory you are in using the `pwd` command. However, you can also
 give `ls` the names of other directories to view. Navigate to your
-home directory if you are not already there.
+`Course_Materials` directory if you are not already there.
 
 ~~~
-$ cd
+$ pwd
 ~~~
 {: .bash}
 
@@ -185,7 +191,6 @@ The `cd` command works in a similar way.
 Try entering:
 
 ~~~
-$ cd
 $ cd shell_data/untrimmed_fastq
 ~~~
 {: .bash}
@@ -195,13 +200,13 @@ the intermediate directory.
 
 > ## Navigating practice 02.02
 > 
-> Navigate to your home directory. From there, list the contents of the `untrimmed_fastq` 
+> Navigate to your `Course_Materials` directory. From there, list the contents of the `untrimmed_fastq` 
 > directory. 
 > 
 > > ## Solution
 > >
 > > ~~~
-> > $ cd
+> > $ cd /home/ubuntu/Course_Materials
 > > $ ls shell_data/untrimmed_fastq/
 > > ~~~
 > > {: .bash}
@@ -232,22 +237,21 @@ $ pwd
 You will see: 
 
 ~~~
-/home/dcuser
+/home
 ~~~
 {: .output}
 
 This is the full name of your home directory. This tells you that you
-are in a directory called `dcuser`, which sits inside a directory called
-`home` which sits inside the very top directory in the hierarchy. The
-very top of the hierarchy is a directory called `/` which is usually
-referred to as the *root directory*. So, to summarize: `dcuser` is a
-directory in `home` which is a directory in `/`. More on `root` and
+are in a directory called `home`,which sits inside the very top directory in the hierarchy. The very top of the hierarchy is a directory called `/` which is usually
+referred to as the *root directory*. Our `Course_Materials` directory is inside an `ubunu` directory which is inside the `home` directory. More on `root` and
 `home` in the next section.
+
+Lets start in out `Course_Materials` directory.
 
 Now enter the following command:
 
 ~~~
-$ cd /home/dcuser/shell_data/.hidden
+$ cd /home/ubuntu/Course_Materials/shell_data/.hidden
 ~~~
 {: .bash}
 
@@ -255,7 +259,7 @@ This jumps forward multiple levels to the `.hidden` directory.
 Now go back to the home directory. 
 
 ~~~
-$ cd
+$ cd /home/ubuntu/Course_Materials
 ~~~
 {: .bash}
 
@@ -286,28 +290,7 @@ since it involves less typing.
 Over time, it will become easier for you to keep a mental note of the
 structure of the directories that you are using and how to quickly
 navigate amongst them.
-
-> ## Relative path resolution 02.03
-> 
-> Using the filesystem diagram below, if `pwd` displays `/Users/thing`,
-> what will `ls ../backup` display?
-> 
-> 1.  `../backup: No such file or directory`
-> 2.  `2012-12-01 2013-01-08 2013-01-27`
-> 3.  `2012-12-01/ 2013-01-08/ 2013-01-27/`
-> 4.  `original pnas_final pnas_sub`
-> 
-> ![File System for Challenge Questions](../fig/filesystem-challenge.svg)
-> 
-> > ## Solution
-> >  1. No: there *is* a directory `backup` in `/Users`.
-> >  2. No: this is the content of `Users/thing/backup`,
-> >   but with `..` we asked for one level further up.
-> >  3. No: see previous explanation.
-> >    Also, we did not specify `-F` to display `/` at the end of the directory names.
-> >  4. Yes: `../backup` refers to `/Users/backup`.
-> {: .solution}
-{: .challenge} 
+ 
 
 ### Navigational Shortcuts
 
@@ -320,15 +303,20 @@ your commands can permanently alter files that the operating
 system needs to function. In many cases, trying to run commands
 in `root` directories will require special permissions which are
 not discussed here, so it’s best to avoid them and work within your
-home directory. Dealing with the `home` directory is very common.
+home directory. It is important to remember your home directory may 
+not actually be called `home` as in this case. 
+
+Dealing with the home directory is very common.
 The tilde character, `~`, is a shortcut for your home directory.
 In our case, the `root` directory is __two__ levels above our
-`home` directory, so `cd` or `cd ~` will take you to
-`/home/dcuser` and `cd /` will take you to `/`. Navigate to the
+home directory, so `cd` will take you to
+`/home`, `cd ~` will take you to `/home/ubuntu` and `cd /` will take you to `/`.
+
+Navigate to the
 `shell_data` directory:
 
 ~~~
-$ cd
+$ cd ~/Course_Materials
 $ cd shell_data
 ~~~
 {: .bash}
@@ -340,12 +328,6 @@ $ ls ~
 ~~~
 {: .bash}
 
-~~~
-R  r_data  shell_data
-~~~
-{: .output}
+This prints all the directories and files in the `ubuntu` directory without needing to type the full path.
 
-This prints the contents of your home directory, without you needing to 
-type the full path. 
-
-The commands `cd`, and `cd ~` are very useful for quickly navigating back to your home directory. We will be using the `~` character in later lessons to specify our home directory.
+The commands `cd`, and `cd ~` are very useful for quickly navigating back to your home directory. We will be using the `~` character in later lessons to specify our home directory. It is important you know which directory `~` refers to on your system. For us it is the `Course_Materials` directory. This is where the terminal will have have started us when we first opened it.
