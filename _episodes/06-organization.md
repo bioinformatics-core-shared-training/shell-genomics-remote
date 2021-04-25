@@ -8,7 +8,7 @@ questions:
 objectives:
 - "Create a file system for a bioinformatics project."
 - "Explain what types of files should go in your `docs`, `data`, and `results` directories."
-- "Use the `history` command and a text editor like `nano` to document your work on your project."
+- "Use the `history` command to document your work on your project."
 keypoints:
 - "Spend the time to organize your file system when you start a new project. Your future self will thank you!"
 - "Always save a write-protected copy of your raw data."
@@ -162,7 +162,7 @@ $ history
 The history likely contains many more commands than you have used for the current project. Let's view the last
 several commands that focus on just what we need for this project.   
 
-View the last n lines of your history (where n = approximately the last few lines you think relevant). For our example, we will use the last 5:
+View the last n lines of your history (where n = approximately the last few lines you think relevant). For our example, we will use the last 7:
 
 ~~~   
 $ history | tail -n 7
@@ -176,10 +176,10 @@ $ history | tail -n 7
 > > 
 > > ## Solution
 > > ~~~
-> > $ history | tail -n 5 >> dc_workshop_log_2021_04_26.sh
+> > $ history | tail -n 7 >> dc_workshop_log_2021_04_26.sh
 > > ~~~
 > > {: .bash}
-> > Note we used the last 5 lines as an example, the number of lines may vary.
+> > Note we used the last 7 lines as an example, the number of lines may vary.
 > {: .solution}
 {: .challenge}
 
