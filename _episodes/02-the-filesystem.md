@@ -243,7 +243,7 @@ You will see:
 
 This is the full name of your home directory. This tells you that you
 are in a directory called `home`,which sits inside the very top directory in the hierarchy. The very top of the hierarchy is a directory called `/` which is usually
-referred to as the *root directory*. Our `Course_Materials` directory is inside an `ubunu` directory which is inside the `home` directory. More on `root` and
+referred to as the *root directory*. Our `Course_Materials` directory is inside an `ubuntu` directory which is inside the `home` directory. More on `root` and
 `home` in the next section.
 
 Lets start in out `Course_Materials` directory.
