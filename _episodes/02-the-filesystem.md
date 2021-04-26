@@ -330,4 +330,4 @@ $ ls ~
 
 This prints all the directories and files in the `ubuntu` directory without needing to type the full path.
 
-The commands `cd`, and `cd ~` are very useful for quickly navigating back to your home directory. We will be using the `~` character in later lessons to specify our home directory. It is important you know which directory `~` refers to on your system. For us it is the `Course_Materials` directory. This is where the terminal will have have started us when we first opened it.
+The commands `cd`, and `cd ~` are very useful for quickly navigating back to your home directory. We will be using the `~` character in later lessons to specify our home directory. It is important you know which directory `~` refers to on your system. For us it is the `ubuntu` directory. 
